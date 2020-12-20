@@ -67,7 +67,10 @@ body {
 }
 @media only screen and (max-width: 620px) {
   .h1__style {
-    font-size: 3.5rem;
+    font-size: 2.4rem;
+  }
+  .circle {
+    display: none;
   }
 }
 .card__conatiner {
@@ -98,15 +101,23 @@ body {
   padding-bottom: 80px;
 }
 .lap__img {
-  margin-top: 80px;
-  width: 100%;
-  height: 490px;
+  padding-top: 80px !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+#vertical__img {
+  padding-top: 80px !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 .row__style2 {
   background: #f4f4f4;
+  height: auto;
+  overflow: hidden;
 }
 .row__style3 {
   padding: 100px 0px 160px 0px;
+  height: auto;
 }
 .info__card {
   padding-top: 60px;
@@ -132,6 +143,4 @@ a:hover {
   background: transparent;
   width: 100%;
   top: 0;
-}
-.our_img {
 }
